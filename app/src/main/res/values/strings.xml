@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Elevens</string>
+    <string name="losing_title">Bust!</string>
+    <string name="losing_message">There are no more possible combinations.</string>
+    <string name="play_again">Play again</string>
+    <string name="winning_title">Congratulations!</string>
+    <string name="winning_message">You completed the deck!</string>
+    <string name="instructions">Tap on any two cards that add up to eleven (ten and ace, nine and two, etc.) or all three face cards (Jack, Queen, and King) to clear them and deal new cards in their place.\n\nIf you manage to clear all the cards, you\'ve won! However, if there aren\'t any combinations to make on the board, the game is lost and you\'ll have to start over.</string>
+    <string name="help_and_info">Help &amp; Info</string>
+    <string name="restart">Restart</string>
+
+    <string name="my_record">My Record</string>
+    <string name="record_title">Your Record</string>
+    <string name="total_wins">Total Wins:</string>
+    <string name="total_losses">Total Losses:</string>
+    <string name="total_games">Total Games:</string>
+    <string name="total_resets">Total Restarts:</string>
+    <string name="reset_record">Reset My Record</string>
+    <string name="reset_record_message">Are you sure you want to reset your record? This cannot be undone.</string>
+    <string name="yes">Yes</string>
+
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="support_email_label">Elevens email address</string>
+    <string name="support_email_address">souvenotes.app+support\@gmail.com</string>
+    <string name="support_email_subject">Elevens App Support - Version %1s</string>
+    <string name="support_email_dialog_message">Please email us at:\n<u>souvenotes.app+support\@gmail.com</u></string>
+    <string name="copied_to_clipboard">Email address copied to clipboard</string>
+    <string name="legal_text_error_message">Unable to load. Please try again or contact support.</string>
+
+    <!-- Content Descriptions -->
+    <string name="ace_of_clubs">Ace of clubs</string>
+    <string name="two_of_clubs">Two of clubs</string>
+    <string name="three_of_clubs">Three of clubs</string>
+    <string name="four_of_clubs">Four of clubs</string>
+    <string name="five_of_clubs">Five of clubs</string>
+    <string name="six_of_clubs">Six of clubs</string>
+    <string name="seven_of_clubs">Seven of clubs</string>
+    <string name="eight_of_clubs">Eight of clubs</string>
+    <string name="nine_of_clubs">Nine of clubs</string>
+    <string name="ten_of_clubs">Ten of clubs</string>
+    <string name="jack_of_clubs">Jack of clubs</string>
+    <string name="queen_of_clubs">Queen of clubs</string>
+    <string name="king_of_clubs">King of clubs</string>
+
+    <string name="ace_of_hearts">Ace of hearts</string>
+    <string name="two_of_hearts">Two of hearts</string>
+    <string name="three_of_hearts">Three of hearts</string>
+    <string name="four_of_hearts">Four of hearts</string>
+    <string name="five_of_hearts">Five of hearts</string>
+    <string name="six_of_hearts">Six of hearts</string>
+    <string name="seven_of_hearts">Seven of hearts</string>
+    <string name="eight_of_hearts">Eight of hearts</string>
+    <string name="nine_of_hearts">Nine of hearts</string>
+    <string name="ten_of_hearts">Ten of hearts</string>
+    <string name="jack_of_hearts">Jack of hearts</string>
+    <string name="queen_of_hearts">Queen of hearts</string>
+    <string name="king_of_hearts">King of hearts</string>
+
+    <string name="ace_of_spades">Ace of spades</string>
+    <string name="two_of_spades">Two of spades</string>
+    <string name="three_of_spades">Three of spades</string>
+    <string name="four_of_spades">Four of spades</string>
+    <string name="five_of_spades">Five of spades</string>
+    <string name="six_of_spades">Six of spades</string>
+    <string name="seven_of_spades">Seven of spades</string>
+    <string name="eight_of_spades">Eight of spades</string>
+    <string name="nine_of_spades">Nine of spades</string>
+    <string name="ten_of_spades">Ten of spades</string>
+    <string name="jack_of_spades">Jack of spades</string>
+    <string name="queen_of_spades">Queen of spades</string>
+    <string name="king_of_spades">King of spades</string>
+
+    <string name="ace_of_diamonds">Ace of diamonds</string>
+    <string name="two_of_diamonds">Two of diamonds</string>
+    <string name="three_of_diamonds">Three of diamonds</string>
+    <string name="four_of_diamonds">Four of diamonds</string>
+    <string name="five_of_diamonds">Five of diamonds</string>
+    <string name="six_of_diamonds">Six of diamonds</string>
+    <string name="seven_of_diamonds">Seven of diamonds</string>
+    <string name="eight_of_diamonds">Eight of diamonds</string>
+    <string name="nine_of_diamonds">Nine of diamonds</string>
+    <string name="ten_of_diamonds">Ten of diamonds</string>
+    <string name="jack_of_diamonds">Jack of diamonds</string>
+    <string name="queen_of_diamonds">Queen of diamonds</string>
+    <string name="king_of_diamonds">King of diamonds</string>
+
+    <string name="card_selected">Card selected</string>
+    <string name="joker">Joker</string>
+</resources>

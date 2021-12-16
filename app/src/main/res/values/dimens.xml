@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_corner_radius">8dp</dimen>
+
+    <dimen name="margin_1x">8dp</dimen>
+    <dimen name="margin_2x">16dp</dimen>
+    <dimen name="margin_3x">24dp</dimen>
+    <dimen name="margin_4x">32dp</dimen>
+
+    <dimen name="padding_half">4dp</dimen>
+
+    <dimen name="padding_three_quarter">12dp</dimen>
+
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+
+    <dimen name="button_rounded_radius">8dp</dimen>
+    <dimen name="button_min_height">48dp</dimen>
+    <dimen name="button_min_width">48dp</dimen>
+</resources>

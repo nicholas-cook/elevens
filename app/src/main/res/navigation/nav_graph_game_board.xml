@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_game_board"
+    app:startDestination="@id/gameBoardFragment">
+
+    <fragment
+        android:id="@+id/gameBoardFragment"
+        android:name="com.souvenotes.elevens.gameboard.GameBoardFragment"
+        android:label="GameBoardFragment"
+        tools:layout="@layout/fragment_game_board">
+        <action
+            android:id="@+id/toHelpScreen"
+            app:destination="@id/helpAndInfoFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/toRecord"
+            app:destination="@id/recordFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/helpAndInfoFragment"
+        android:name="com.souvenotes.elevens.HelpAndInfoFragment"
+        android:label="HelpAndInfoFragment"
+        tools:layout="@layout/fragment_help_and_info">
+        <action
+            android:id="@+id/toLegalText"
+            app:destination="@id/legalTextFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/recordFragment"
+        android:name="com.souvenotes.elevens.record.RecordFragment"
+        android:label="RecordFragment"
+        tools:layout="@layout/fragment_record" />
+
+    <fragment
+        android:id="@+id/legalTextFragment"
+        android:name="com.souvenotes.elevens.legal.LegalTextFragment"
+        android:label="LegalTextFragment"
+        tools:layout="@layout/fragment_legal_text">
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="filename"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
