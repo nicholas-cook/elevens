@@ -3,7 +3,6 @@ package com.souvenotes.elevens
 import android.app.Application
 import android.content.res.AssetManager
 import com.google.android.gms.ads.MobileAds
-import com.google.android.gms.ads.RequestConfiguration
 import com.souvenotes.elevens.gameboard.GameBoardViewModel
 import com.souvenotes.elevens.legal.LegalTextViewModel
 import com.souvenotes.elevens.record.RecordViewModel
@@ -35,9 +34,5 @@ class ElevensApp : Application() {
         }
 
         MobileAds.initialize(this)
-        MobileAds.setRequestConfiguration(
-            RequestConfiguration.Builder()
-                .setTestDeviceIds(listOf("B4894F1DEA524953E7AE0E7B249B9776")).build()
-        )
     }
 }

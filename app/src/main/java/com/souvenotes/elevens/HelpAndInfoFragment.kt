@@ -57,7 +57,7 @@ class HelpAndInfoFragment : Fragment(R.layout.fragment_help_and_info) {
     private fun sendSupportEmailIntent() {
         val sendEmailIntent = Intent(Intent.ACTION_SENDTO).apply {
             data = Uri.parse(MAIL_TO)
-            putExtra(Intent.EXTRA_EMAIL, getString(R.string.support_email_address))
+            putExtra(Intent.EXTRA_EMAIL, arrayOf(getString(R.string.support_email_address)))
             putExtra(
                 Intent.EXTRA_SUBJECT,
                 getString(R.string.support_email_subject, BuildConfig.VERSION_NAME)

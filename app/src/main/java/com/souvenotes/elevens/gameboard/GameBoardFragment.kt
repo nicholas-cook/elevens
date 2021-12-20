@@ -56,17 +56,17 @@ class GameBoardFragment : Fragment(R.layout.fragment_game_board) {
             }
         }
 
-//        val requestedAdSize = getAdSize()
-//        binding.gameBoardAdContainer.layoutParams =
-//            binding.gameBoardAdContainer.layoutParams.apply {
-//                height = requestedAdSize.getHeightInPixels(requireContext())
-//            }
-//        val adView = AdView(requireContext()).apply {
-//            adUnitId = "ca-app-pub-5268862472871083/7283862600"
-//            adSize = requestedAdSize
-//        }
-//        binding.gameBoardAdContainer.addView(adView)
-//        adView.loadAd(AdRequest.Builder().build())
+        val requestedAdSize = getAdSize()
+        binding.gameBoardAdContainer.layoutParams =
+            binding.gameBoardAdContainer.layoutParams.apply {
+                height = requestedAdSize.getHeightInPixels(requireContext())
+            }
+        val adView = AdView(requireContext()).apply {
+            adUnitId = "ca-app-pub-3940256099942544/6300978111"
+            adSize = requestedAdSize
+        }
+        binding.gameBoardAdContainer.addView(adView)
+        adView.loadAd(AdRequest.Builder().build())
 
         paddingPixels = resources.getDimensionPixelOffset(R.dimen.padding_half)
         view.post {
